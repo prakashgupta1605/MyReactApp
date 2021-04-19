@@ -44,7 +44,12 @@
   },
   "devDependencies": {
     "@types/chai": "^4.2.15",
+    "@types/enzyme": "^3.10.8",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/selenium-webdriver": "^4.0.12",
     "chai": "^4.3.4",
-    "chromedriver": "^89.0.0"
+    "chromedriver": "^89.0.0",
+    "enzyme": "*",
+    "enzyme-adapter-react-16": "*"
   }
 }

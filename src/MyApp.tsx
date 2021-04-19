@@ -3,8 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import 'chai';
 import 'selenium-webdriver';
-import {Builder} from "selenium-webdriver";
-import {findSafariDriver} from "selenium-webdriver/safari";
 
 class MyApp extends Component {
   render() {

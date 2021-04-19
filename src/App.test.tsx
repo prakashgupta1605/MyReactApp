@@ -6,7 +6,6 @@ import {Builder, By, until} from "selenium-webdriver";
 //import {assert, expect} from "chai";
 import "chromedriver";
 //import {} from "chai";
-import {path} from "chromedriver";
 
 
 
