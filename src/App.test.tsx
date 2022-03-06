@@ -11,7 +11,7 @@ import "chromedriver";
 
 //import { expect } from 'chai';
 
-
+const testData: [number, string] = [1,"I"];
 
 function launchWebDriver(){
 
@@ -29,7 +29,7 @@ function launchWebDriver(){
   driver.wait(until.titleIs('webdriver - Google Search'), 1000);
   driver.quit();
 }
-test('test webdriver',  () => {
+test('test webdriver',  (testData.) => {
   launchWebDriver();
 })
 
@@ -40,6 +40,9 @@ test('renders learn react link', () => {
 });
 
 describe('Basic Jest tests with a simple assert', () => {
+  it.each('should ', function () {
+
+  });
   test('should assert strings are equal', () => {
     const a = 'foobar';
     const b = 'foobar';
